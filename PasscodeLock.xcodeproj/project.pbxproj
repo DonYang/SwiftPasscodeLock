@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C99EAF431B90B05700D61E1B /* PasscodeLock.h in Headers */ = {isa = PBXBuildFile; fileRef = C99EAF421B90B05700D61E1B /* PasscodeLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99EAF4A1B90B05800D61E1B /* PasscodeLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99EAF3F1B90B05700D61E1B /* PasscodeLock.framework */; };
-		C9D3DF0B1B919CE4008561EB /* PasscodeLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9D3DF0A1B919CE4008561EB /* PasscodeLockView.xib */; };
 		C9D3DF131B91AD11008561EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3DF121B91AD11008561EB /* AppDelegate.swift */; };
 		C9D3DF151B91AD11008561EB /* PasscodeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3DF141B91AD11008561EB /* PasscodeSettingsViewController.swift */; };
 		C9D3DF181B91AD11008561EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D3DF161B91AD11008561EB /* Main.storyboard */; };
@@ -58,6 +57,7 @@
 		C9DC08161B90DF4E007A4DD0 /* PasscodeLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC08151B90DF4E007A4DD0 /* PasscodeLockViewController.swift */; };
 		DE6F8E1C1C24BF7500D3EFCF /* LockSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F8E1B1C24BF7500D3EFCF /* LockSplashView.swift */; };
 		DE6F8E1E1C24C09400D3EFCF /* CustomPasscodeLockPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F8E1D1C24C09400D3EFCF /* CustomPasscodeLockPresenter.swift */; };
+		F633733E1ECA95BC003D8602 /* PasscodeLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63373401ECA95BC003D8602 /* PasscodeLockView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,7 +111,6 @@
 		C99EAF441B90B05700D61E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99EAF491B90B05800D61E1B /* PasscodeLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasscodeLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99EAF501B90B05800D61E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9D3DF0A1B919CE4008561EB /* PasscodeLockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeLockView.xib; sourceTree = "<group>"; };
 		C9D3DF101B91AD11008561EB /* PasscodeLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasscodeLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D3DF121B91AD11008561EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D3DF141B91AD11008561EB /* PasscodeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeSettingsViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +154,9 @@
 		DE6F8E1D1C24C09400D3EFCF /* CustomPasscodeLockPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPasscodeLockPresenter.swift; sourceTree = "<group>"; };
 		F63373111ECA8F95003D8602 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PasscodeLock.strings"; sourceTree = "<group>"; };
 		F63373121ECA90EB003D8602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PasscodeLock.strings; sourceTree = "<group>"; };
+		F633733F1ECA95BC003D8602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PasscodeLockView.xib; sourceTree = "<group>"; };
+		F63373421ECA95C2003D8602 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PasscodeLockView.strings"; sourceTree = "<group>"; };
+		F63373441ECA95C4003D8602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PasscodeLockView.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,7 +314,7 @@
 			children = (
 				C9DC08111B90DE1B007A4DD0 /* PasscodeSignPlaceholderView.swift */,
 				C9DC08131B90DE50007A4DD0 /* PasscodeSignButton.swift */,
-				C9D3DF0A1B919CE4008561EB /* PasscodeLockView.xib */,
+				F63373401ECA95BC003D8602 /* PasscodeLockView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -512,7 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DC07FC1B90D0A3007A4DD0 /* PasscodeLock.strings in Resources */,
-				C9D3DF0B1B919CE4008561EB /* PasscodeLockView.xib in Resources */,
+				F633733E1ECA95BC003D8602 /* PasscodeLockView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +677,16 @@
 				F63373121ECA90EB003D8602 /* en */,
 			);
 			name = PasscodeLock.strings;
+			sourceTree = "<group>";
+		};
+		F63373401ECA95BC003D8602 /* PasscodeLockView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F633733F1ECA95BC003D8602 /* Base */,
+				F63373421ECA95C2003D8602 /* zh-Hans */,
+				F63373441ECA95C4003D8602 /* en */,
+			);
+			name = PasscodeLockView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
