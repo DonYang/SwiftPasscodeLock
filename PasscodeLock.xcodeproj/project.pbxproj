@@ -140,7 +140,6 @@
 		C9DC07EF1B90C8E1007A4DD0 /* FakePasscodeLockDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakePasscodeLockDelegate.swift; sourceTree = "<group>"; };
 		C9DC07F11B90C9DE007A4DD0 /* EnterPasscodeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPasscodeState.swift; sourceTree = "<group>"; };
 		C9DC07F71B90CF29007A4DD0 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		C9DC07FB1B90D0A3007A4DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PasscodeLock.strings; sourceTree = "<group>"; };
 		C9DC07FE1B90D24A007A4DD0 /* SetPasscodeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPasscodeState.swift; sourceTree = "<group>"; };
 		C9DC08011B90D2BA007A4DD0 /* ConfirmPasscodeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPasscodeState.swift; sourceTree = "<group>"; };
 		C9DC08041B90D394007A4DD0 /* ChangePasscodeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasscodeState.swift; sourceTree = "<group>"; };
@@ -154,6 +153,8 @@
 		C9DC08151B90DF4E007A4DD0 /* PasscodeLockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeLockViewController.swift; sourceTree = "<group>"; };
 		DE6F8E1B1C24BF7500D3EFCF /* LockSplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockSplashView.swift; sourceTree = "<group>"; };
 		DE6F8E1D1C24C09400D3EFCF /* CustomPasscodeLockPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPasscodeLockPresenter.swift; sourceTree = "<group>"; };
+		F63373111ECA8F95003D8602 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PasscodeLock.strings"; sourceTree = "<group>"; };
+		F63373121ECA90EB003D8602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PasscodeLock.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -487,8 +488,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"zh-Hans",
+				en,
 			);
 			mainGroup = C99EAF351B90B05700D61E1B;
 			productRefGroup = C99EAF401B90B05700D61E1B /* Products */;
@@ -669,7 +671,8 @@
 		C9DC07FA1B90D0A3007A4DD0 /* PasscodeLock.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9DC07FB1B90D0A3007A4DD0 /* en */,
+				F63373111ECA8F95003D8602 /* zh-Hans */,
+				F63373121ECA90EB003D8602 /* en */,
 			);
 			name = PasscodeLock.strings;
 			sourceTree = "<group>";
@@ -681,6 +684,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -731,6 +735,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
